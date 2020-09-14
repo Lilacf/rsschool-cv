@@ -6,6 +6,6 @@
   <li><b>Skills:</b> Basic knowladge about OOP; c++, as well as, html and CSS</li>
   <li><b>Education:</b> https://inha.uz/ Inha university in Tashkent</li>
   Faculty: Computer science and engineering
-  <li><b> English:</> Level: C ; IELTS score: 7; 
+  <li><b>English:</> Level: C ; IELTS score: 7; 
  </ul>
 
