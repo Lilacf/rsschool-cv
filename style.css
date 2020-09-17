@@ -1,0 +1,224 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+    color: #fff;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    -webkit-font-smoothing: antialiased;
+}
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+p{
+    margin: 0 0 10px;
+}
+
+.orange_block{
+    
+    background-color: #ffb129;
+    overflow: hidden;
+    
+}
+/*Container*/
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    /* background-color: #fff; */
+    
+}
+
+/* header */
+.header{
+    background-color: #000;
+    margin-top: 100px;
+}
+.name{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 700;
+    padding: 30px 60px 8px;
+    letter-spacing: 0.07em;
+}
+.profession{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 60px;
+    margin-bottom: 200px;
+    letter-spacing: 0.07em;
+}
+.summary{
+    max-width: 500px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 60px;
+    padding-bottom: 40px;
+    line-height: 1.5;
+}
+
+/* Image */
+.image{
+    position: absolute;
+    margin: 250px 450px 0 750px;
+    max-width: 100%;
+    display: block;
+    height: auto;
+    
+}
+
+/* Contacts */
+.white_block{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+   
+}
+.contact{
+    max-width: 500px;
+}
+.all_title{
+    color: #000;
+    padding: 40px 60px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    
+}
+.contact_details{
+    margin: 0;
+}
+.contact_item{
+    color: #000;
+    font-size: 14px;
+    margin-left: 32px;
+    line-height: 3;
+    
+}
+.contact_item:last-child{
+    margin-bottom: 45px;
+}
+.mail{
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+    
+}
+.mail:hover{
+    text-decoration: underline;
+}
+
+/* Social */
+.social{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 120px;
+    
+}
+.social_item{
+    width: 55px;
+    height: 50px;
+    margin-right: 15px;
+    transition: transform 0.2s linear;
+    
+}
+.social_item:hover{
+    transform: translate3d(0px, -10px, 0);
+}
+
+
+/* skills */
+.skills{
+    margin-top: 200px;
+    margin-left: 30px;
+    
+}
+.skills_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills_title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    padding-top: 10px;
+    margin-left: 60px;
+}
+.wrapper {
+    width: 200px;
+    
+    padding-bottom: 40px;
+  }
+  
+  .progress_bar {
+    width: 100%;
+    background-color: #e7e9e8;
+    margin-left: 40px;
+    /* border: 0;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .2); */
+  }
+  
+  .progress_bar_fill{
+    display: block;
+    height: 22px;
+    background-color: #000;
+    
+    /* transition: width 500ms ease-in-out; */
+  }
+
+
+  /* education */
+  
+  .education_details{
+    display: flex;
+    flex-wrap: wrap;
+    color: #000;
+    margin-bottom: 30px;
+  }
+  .education_year{
+      color: #000;
+      font-size: 16px;
+      margin: 0 28px 0 18px;
+     
+
+  }
+  .education_title{
+      color: #000;
+      font-size: 16px;
+      
+  }
+  .university{
+      font-size: 16px;
+      color: #000;
+      margin: 5px 18px;
+  }
+  .university_text{
+      color: #000;
+      margin: 5px 18px;
+  }
+
+
+  /* experience */
+  .experience{
+      color: #000;
+      margin-bottom: 70px;
+      max-width: 550px;
+  }
+  .experience_item{
+      margin-bottom: 20px;
+      margin-left: 24px;
+         font-size: 16px;
+  }
