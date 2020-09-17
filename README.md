@@ -1,1 +1,1 @@
-https://lilacf.github.io/rsschool-cv/cv
+https://lilacf.github.io/rsschool-cv/cv 
